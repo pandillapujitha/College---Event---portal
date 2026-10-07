@@ -1,5 +1,10 @@
 # CampusConnect – College Event Portal
 
+## 🌐 Live Demo
+
+🚀 **College Event Portal:**  
+https://pandillapujitha.github.io/College---Event---portal/
+
 A simple, responsive college event website built with only HTML, CSS and JavaScript. No backend, no database.
 
 ## Files
