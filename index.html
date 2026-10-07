@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | CampusConnect</title>
+  <meta name="description" content="Discover and register for college events, fests and workshops.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Every event on campus, in one place.</h1>
+        <p>Browse fests, workshops and matches, then register in under a minute. No queues, no paper forms.</p>
+        <div class="hero-buttons">
+          <a href="events.html" class="btn btn-primary">See all events</a>
+          <a href="register.html" class="btn btn-outline">Register now</a>
+        </div>
+      </div>
+      <aside class="next-card" aria-label="Next event">
+        <img src="images/event-hackathon.svg" alt="TechSpark Hackathon">
+        <div class="next-card-body">
+          <small>Happening next</small>
+          <h3>TechSpark Hackathon</h3>
+          <p>15 Nov 2026 • 9:00 AM • CS Block</p>
+          <a href="register.html?event=hackathon" class="btn btn-dark">Save my seat</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== HIGHLIGHTS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why students use CampusConnect</h2>
+        <p>Everything you need to find an event and show up.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature reveal">
+          <div class="icon">🎯</div>
+          <h3>Find what fits you</h3>
+          <p>Filter by technical, cultural, sports or workshop and skip the noise.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="icon">⚡</div>
+          <h3>Register in a minute</h3>
+          <p>One short form per event. You get a confirmation as soon as you submit.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="icon">📸</div>
+          <h3>Relive the moments</h3>
+          <p>Browse photos from past events and see what you missed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED EVENTS ===== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Coming up soon</h2>
+        <p>Three events open for registration right now.</p>
+      </div>
+      <div class="event-grid">
+        <article class="event-card reveal" data-category="technical">
+          <div class="event-img">
+            <img src="images/event-hackathon.svg" alt="TechSpark Hackathon" loading="lazy">
+            <span class="tag">Technical</span>
+          </div>
+          <div class="event-body">
+            <h3>TechSpark Hackathon</h3>
+            <p class="event-meta">15 Nov 2026 • 9:00 AM • CS Block</p>
+            <p>Build a working app in 24 hours. Form a team of up to four and pitch to industry judges.</p>
+            <a href="register.html?event=hackathon" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="cultural">
+          <div class="event-img">
+            <img src="images/event-music.svg" alt="Rhythm Night" loading="lazy">
+            <span class="tag">Cultural</span>
+          </div>
+          <div class="event-body">
+            <h3>Rhythm Night</h3>
+            <p class="event-meta">22 Nov 2026 • 6:30 PM • Open Air Theatre</p>
+            <p>Live bands, solo singers and an open mic. Bring your friends and your loudest cheer.</p>
+            <a href="register.html?event=music" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="sports">
+          <div class="event-img">
+            <img src="images/event-sports.svg" alt="Inter-Department Sports Meet" loading="lazy">
+            <span class="tag">Sports</span>
+          </div>
+          <div class="event-body">
+            <h3>Inter-Department Sports Meet</h3>
+            <p class="event-meta">29 Nov 2026 • 8:00 AM • Main Ground</p>
+            <p>Cricket, football, relay races and tug of war. Which department takes the trophy?</p>
+            <a href="register.html?event=sports" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+      </div>
+      <p style="margin-top:36px"><a href="events.html" class="btn btn-dark">View all events</a></p>
+    </div>
+  </section>
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Ready to join in?</h2>
+        <p>Pick an event, fill in the form, and we will save your spot.</p>
+        <a href="register.html" class="btn btn-primary">Register for an event</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+          <p>The one place for every fest, workshop, match and show happening on campus.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <ul>
+            <li>Student Activities Office</li>
+            <li>Main Campus, Block A</li>
+            <li>events@yourcollege.edu</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© <span id="year">2026</span> CampusConnect. Made for students, by students.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

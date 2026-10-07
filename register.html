@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | CampusConnect</title>
+  <meta name="description" content="Register for a college event.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html" class="active">Register</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Register for an event</h1>
+      <p>Fill in the form below. It takes about a minute.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container form-wrap">
+      <div class="side-panel">
+        <h2>Before you register</h2>
+        <p>A few things worth knowing:</p>
+        <ul>
+          <li>✔ Registration is free for all students.</li>
+          <li>✔ Carry your college ID card to the venue.</li>
+          <li>✔ You can register for more than one event.</li>
+          <li>✔ Team events: one person registers for the team.</li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <form id="registerForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Priya Sharma">
+              <p class="error-text">Enter your full name.</p>
+            </div>
+            <div class="form-group">
+              <label for="email">College email</label>
+              <input type="email" id="email" name="email" placeholder="you@college.edu">
+              <p class="error-text">Enter a valid email address.</p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" placeholder="10-digit number">
+              <p class="error-text">Enter a 10-digit phone number.</p>
+            </div>
+            <div class="form-group">
+              <label for="department">Department</label>
+              <select id="department" name="department">
+                <option value="">Choose department</option>
+                <option>Computer Science</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+                <option>Business</option>
+                <option>Arts &amp; Science</option>
+              </select>
+              <p class="error-text">Choose your department.</p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="year">Year of study</label>
+              <select id="year" name="year">
+                <option value="">Choose year</option>
+                <option>1st year</option>
+                <option>2nd year</option>
+                <option>3rd year</option>
+                <option>4th year</option>
+              </select>
+              <p class="error-text">Choose your year.</p>
+            </div>
+            <div class="form-group">
+              <label for="event">Event</label>
+              <select id="event" name="event">
+                <option value="">Choose an event</option>
+              <option value="hackathon">TechSpark Hackathon</option>
+              <option value="music">Rhythm Night</option>
+              <option value="sports">Inter-Department Sports Meet</option>
+              <option value="art">Canvas & Colors Art Fest</option>
+              <option value="seminar">Career Guidance Seminar</option>
+              <option value="dance">Dance Fiesta</option>
+              <option value="workshop">Innovation Workshop</option>
+              <option value="cultural">Annual Cultural Day</option>
+              </select>
+              <p class="error-text">Choose an event.</p>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-dark">Complete registration</button>
+        </form>
+
+        <!-- Shown by JavaScript after a successful submit -->
+        <div class="success-message" id="registerSuccess" role="status">
+          <div class="check">✓</div>
+          <h2>You're registered!</h2>
+          <p>Thanks, <strong id="successName"></strong>. Your spot for <strong id="successEvent"></strong> is saved. See you there!</p>
+          <button type="button" class="btn btn-dark" id="registerAgain">Register for another event</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+          <p>The one place for every fest, workshop, match and show happening on campus.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <ul>
+            <li>Student Activities Office</li>
+            <li>Main Campus, Block A</li>
+            <li>events@yourcollege.edu</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© <span id="year">2026</span> CampusConnect. Made for students, by students.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

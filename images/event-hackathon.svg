@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="event-hackathon">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4338ca"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g)"/><circle cx="331" cy="154" r="70" fill="#fff" opacity="0.12"/><circle cx="49" cy="74" r="88" fill="#fff" opacity="0.05"/><circle cx="374" cy="596" r="27" fill="#fff" opacity="0.12"/><circle cx="219" cy="38" r="31" fill="#fff" opacity="0.08"/><circle cx="428" cy="71" r="50" fill="#fff" opacity="0.05"/><circle cx="564" cy="434" r="27" fill="#fff" opacity="0.12"/><circle cx="126" cy="228" r="27" fill="#fff" opacity="0.12"/><circle cx="599" cy="406" r="26" fill="#fff" opacity="0.05"/><circle cx="47" cy="570" r="37" fill="#fff" opacity="0.08"/><circle cx="429" cy="147" r="89" fill="#fff" opacity="0.05"/><circle cx="584" cy="315" r="43" fill="#fff" opacity="0.05"/><circle cx="595" cy="584" r="44" fill="#fff" opacity="0.08"/><circle cx="99" cy="560" r="28" fill="#fff" opacity="0.12"/><circle cx="61" cy="210" r="83" fill="#fff" opacity="0.12"/>
+<g fill="#fff" stroke="#fff">
+<rect x="240" y="170" width="320" height="200" rx="14" fill="#1b1840" stroke="#fff" stroke-width="8"/>
+<text x="400" y="290" font-size="80" font-family="monospace" font-weight="700" text-anchor="middle" stroke="none" fill="#67e8f9">&lt;/&gt;</text>
+<path d="M190 400 H610 L580 435 H220 Z" stroke="none"/></g></svg>

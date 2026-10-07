@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | CampusConnect</title>
+  <meta name="description" content="All upcoming college events.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Upcoming events</h1>
+      <p>Eight events between now and January. Pick a category to narrow the list.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="technical">Technical</button>
+        <button class="filter-btn" data-filter="cultural">Cultural</button>
+        <button class="filter-btn" data-filter="sports">Sports</button>
+        <button class="filter-btn" data-filter="workshop">Workshops &amp; seminars</button>
+      </div>
+      <div class="event-grid">
+        <article class="event-card reveal" data-category="technical">
+          <div class="event-img">
+            <img src="images/event-hackathon.svg" alt="TechSpark Hackathon" loading="lazy">
+            <span class="tag">Technical</span>
+          </div>
+          <div class="event-body">
+            <h3>TechSpark Hackathon</h3>
+            <p class="event-meta">15 Nov 2026 • 9:00 AM • CS Block</p>
+            <p>Build a working app in 24 hours. Form a team of up to four and pitch to industry judges.</p>
+            <a href="register.html?event=hackathon" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="cultural">
+          <div class="event-img">
+            <img src="images/event-music.svg" alt="Rhythm Night" loading="lazy">
+            <span class="tag">Cultural</span>
+          </div>
+          <div class="event-body">
+            <h3>Rhythm Night</h3>
+            <p class="event-meta">22 Nov 2026 • 6:30 PM • Open Air Theatre</p>
+            <p>Live bands, solo singers and an open mic. Bring your friends and your loudest cheer.</p>
+            <a href="register.html?event=music" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="sports">
+          <div class="event-img">
+            <img src="images/event-sports.svg" alt="Inter-Department Sports Meet" loading="lazy">
+            <span class="tag">Sports</span>
+          </div>
+          <div class="event-body">
+            <h3>Inter-Department Sports Meet</h3>
+            <p class="event-meta">29 Nov 2026 • 8:00 AM • Main Ground</p>
+            <p>Cricket, football, relay races and tug of war. Which department takes the trophy?</p>
+            <a href="register.html?event=sports" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="cultural">
+          <div class="event-img">
+            <img src="images/event-art.svg" alt="Canvas & Colors Art Fest" loading="lazy">
+            <span class="tag">Cultural</span>
+          </div>
+          <div class="event-body">
+            <h3>Canvas & Colors Art Fest</h3>
+            <p class="event-meta">5 Dec 2026 • 10:00 AM • Fine Arts Hall</p>
+            <p>Live painting, sketching and a gallery walk. Supplies are provided at the venue.</p>
+            <a href="register.html?event=art" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="workshop">
+          <div class="event-img">
+            <img src="images/event-seminar.svg" alt="Career Guidance Seminar" loading="lazy">
+            <span class="tag">Seminar</span>
+          </div>
+          <div class="event-body">
+            <h3>Career Guidance Seminar</h3>
+            <p class="event-meta">10 Dec 2026 • 11:00 AM • Auditorium</p>
+            <p>Alumni and recruiters share how to plan your résumé, interviews and first job.</p>
+            <a href="register.html?event=seminar" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="cultural">
+          <div class="event-img">
+            <img src="images/event-dance.svg" alt="Dance Fiesta" loading="lazy">
+            <span class="tag">Cultural</span>
+          </div>
+          <div class="event-body">
+            <h3>Dance Fiesta</h3>
+            <p class="event-meta">14 Dec 2026 • 5:00 PM • Main Stage</p>
+            <p>Solo and group dance battles across classical, hip-hop and folk styles.</p>
+            <a href="register.html?event=dance" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="workshop">
+          <div class="event-img">
+            <img src="images/event-workshop.svg" alt="Innovation Workshop" loading="lazy">
+            <span class="tag">Workshop</span>
+          </div>
+          <div class="event-body">
+            <h3>Innovation Workshop</h3>
+            <p class="event-meta">18 Dec 2026 • 2:00 PM • Seminar Hall 2</p>
+            <p>Turn a rough idea into a prototype with hands-on mentoring from faculty.</p>
+            <a href="register.html?event=workshop" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+        <article class="event-card reveal" data-category="cultural">
+          <div class="event-img">
+            <img src="images/event-cultural.svg" alt="Annual Cultural Day" loading="lazy">
+            <span class="tag">Cultural</span>
+          </div>
+          <div class="event-body">
+            <h3>Annual Cultural Day</h3>
+            <p class="event-meta">9 Jan 2027 • 9:30 AM • Whole Campus</p>
+            <p>Food stalls, drama, music and exhibitions. The biggest day of our college year.</p>
+            <a href="register.html?event=cultural" class="btn btn-dark">Register now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo"><span class="logo-mark">C</span>CampusConnect</a>
+          <p>The one place for every fest, workshop, match and show happening on campus.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <ul>
+            <li>Student Activities Office</li>
+            <li>Main Campus, Block A</li>
+            <li>events@yourcollege.edu</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© <span id="year">2026</span> CampusConnect. Made for students, by students.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

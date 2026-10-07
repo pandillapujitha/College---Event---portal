@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="event-cultural">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dc2626"/><stop offset="1" stop-color="#fb923c"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#g)"/><circle cx="124" cy="401" r="76" fill="#fff" opacity="0.08"/><circle cx="74" cy="246" r="74" fill="#fff" opacity="0.05"/><circle cx="217" cy="310" r="35" fill="#fff" opacity="0.05"/><circle cx="733" cy="374" r="38" fill="#fff" opacity="0.08"/><circle cx="140" cy="478" r="48" fill="#fff" opacity="0.12"/><circle cx="96" cy="407" r="82" fill="#fff" opacity="0.05"/><circle cx="683" cy="229" r="40" fill="#fff" opacity="0.12"/><circle cx="441" cy="527" r="71" fill="#fff" opacity="0.08"/><circle cx="431" cy="200" r="65" fill="#fff" opacity="0.08"/><circle cx="94" cy="374" r="22" fill="#fff" opacity="0.08"/><circle cx="567" cy="469" r="76" fill="#fff" opacity="0.12"/><circle cx="18" cy="393" r="62" fill="#fff" opacity="0.12"/><circle cx="638" cy="302" r="85" fill="#fff" opacity="0.05"/><circle cx="115" cy="234" r="33" fill="#fff" opacity="0.05"/>
+<g fill="#fff" stroke="#fff">
+<path d="M80 150 Q400 300 720 150" fill="none" stroke-width="6"/>
+<polygon points="150,185 210,195 175,265" stroke="none" opacity="0.95"/><polygon points="260,225 320,235 285,305" stroke="none" opacity="0.8"/>
+<polygon points="380,245 440,245 410,315" stroke="none" opacity="0.95"/><polygon points="500,235 560,225 525,305" stroke="none" opacity="0.8"/>
+<polygon points="610,195 670,185 635,265" stroke="none" opacity="0.95"/>
+<circle cx="400" cy="440" r="60" stroke="none"/><circle cx="400" cy="440" r="85" fill="none" stroke-width="6" opacity="0.6"/></g></svg>
